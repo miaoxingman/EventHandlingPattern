@@ -1,0 +1,6 @@
+TODO:
+
+1. Add a thread pool for the event handler.
+2. Make it thread safe.
+3. Add timer support.
+
