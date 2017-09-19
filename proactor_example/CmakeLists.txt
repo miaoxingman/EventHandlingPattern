@@ -1,0 +1,8 @@
+cmake_minimum_required (VERSION 2.8.11)
+project(PROACTOR_EXAMPLE)
+
+set (CMAKE_CXX_STANDARD 11)
+add_definitions(-DENABLE_DEBUG_MACRO)
+
+add_subdirectory (proactor)
+add_subdirectory (example)
