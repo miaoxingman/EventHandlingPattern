@@ -19,3 +19,7 @@
 	![MacDown logo](img/boost_asio_threads.png)
 * strand result
 	![MacDown logo](img/boost_asio_strand.png)
+
+### how to
+* Open the index.html in the vis folder.
+* Run the demo program.
