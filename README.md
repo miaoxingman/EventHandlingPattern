@@ -12,6 +12,9 @@ This project contains the sample codes for EventHandlingPattern talk inside comp
 	* Proactor is a software design pattern for event handling in which long running activities are running in an asynchronous part. A completion handler is called after the asynchronous part has terminated.
 	* The proactor pattern can be considered to be an asynchronous variant of the synchronous reactor pattern.
 
+* boost.asio_example
+	* show how strand enhance the performance with Remotery.
+
 ### how to build
 * cmake
 * c++0x11
