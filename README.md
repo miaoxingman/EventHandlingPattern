@@ -13,7 +13,16 @@ This project contains the sample codes for EventHandlingPattern talk inside comp
 	* The proactor pattern can be considered to be an asynchronous variant of the synchronous reactor pattern.
 
 * boost.asio_example
-	* show how strand enhance the performance with Remotery.
+	* show how strand enhance the performance with [Remotery](https://github.com/Celtoys/Remotery).
+	* boost\_asio\_demo()
+	* boost\_asio\_strand_demo
+		* a demo of boost.asio with 3 threads.
+		* Randomly create 1000 tasks compete for 7 handler, each handler is protected with a locked.
+		* the **work** and **block** in the Remotery indicate the working and bloking time in each thraed.
+	* normal result
+	![MacDown logo](boost.asio_example/img/boost_asio_threads.png)
+	* strand result
+	![MacDown logo](boost.asio_example/img/boost_asio_strand.png)
 
 ### how to build
 * cmake
